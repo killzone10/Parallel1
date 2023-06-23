@@ -59,10 +59,7 @@ public:
 
     std::shared_ptr<T> wait_and_pop(T &value)
     {
-        // todo: 
-        // in a thread-safe way take the front element
-        // and pop it from the queue
-        // multiple consumers may be accessing this method
+      
         std::unique_lock<std::mutex> lock{m};
 
         if ( !q.empty() ){
