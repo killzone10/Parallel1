@@ -26,7 +26,7 @@ The main objective of the program was resolving the bootleneck which exist when 
 As its shown above the maximum speed up was obtained for 12 threads and equals ~7. It is possible to use compare_exchange_strong methods to get  speedup of
 ~ 11.
 
-# 2 - 3 heat is about heat equation 
+# 2 - 3 projects are about  heat equation 
 ## Project 2 was about parallelizng the loops using OpenMP
 ## Project 3 was about using MPI to create local matrixes with halo reginons and communicate with point to point communication matrixes between processes
 
